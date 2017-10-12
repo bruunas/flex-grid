@@ -1,3 +1,13 @@
+.col{
+	padding: 15px 10px;
+	margin: 5px;
+
+	@media #{$mobile} {
+		padding: 5px 10px;
+		margin: 0;
+	}
+}
+
 .col-1{
 	flex-basis: 8.33333333%;
   	max-width: 8.33333333%;
