@@ -12,7 +12,7 @@ var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 
 var paths = {
-	scripts: ['assets/js/**.js'],
+	scripts: ['assets/script/**.js'],
 	sass: ['./assets/sass/main.scss'],
 	html: ['index.html'], 
 	images: ['assets/img/**']

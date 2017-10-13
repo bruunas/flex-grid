@@ -1,0 +1,44 @@
+.col{
+	min-height: 50px;
+	height: auto;
+	font-family: $PTSans;
+	background: $yellow;
+
+	@media #{$mobile}{
+		background: $light;
+		border: 1px solid $yellow;	
+	}
+}
+
+.main{
+	min-height: 100%;
+	height: 100vh;
+	margin-top: 75px;
+
+	&__top{
+		text-align: center;
+	}
+
+	&__prev{
+		font-size: 16px;
+
+		span{
+			&:after{
+				content: "";
+				display: inline-block;
+				height: 16px;
+				width: 1px;
+				background: $black;
+				margin-left: 10px;
+				margin-right: 8px;
+				vertical-align: sub;
+			}
+
+			&:last-child{
+				&:after{
+					display: none;
+				}
+			}
+		}
+	}
+}

@@ -1,3 +1,4 @@
+@import "helpers/colors";
 @import "helpers/breakpoint";
 @import "helpers/global";
 @import "helpers/placeholder";
@@ -5,3 +6,6 @@
 @import "components/row";
 @import "components/container";
 @import "components/col-responsive";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/content";
