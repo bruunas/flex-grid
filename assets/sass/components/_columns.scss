@@ -1,9 +1,12 @@
 .col{
-	padding: 15px 10px;
 	margin: 16px;
 
-	@media #{$mobile} {
-		padding: 5px 10px;
+	@media only screen and (max-width: 1199px) {
+		margin: 12px;
+	}
+
+	@media only screen and (max-width: 479px){
+		margin: 10px;
 	}
 }
 
