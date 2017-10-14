@@ -1,13 +1,14 @@
 .row{
 	box-sizing: border-box;
 	display: flex;
-	flex: 0 1 auto;
+	align-items: center;
+	justify-content: center;
 	flex-direction: row;
-  	flex-wrap: wrap;
-  	margin-left: -15px;
-  	margin-right: -15px;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
 
-  	@media #{$mobile}{
-  		margin: 0;
-  	}
+	@media #{$mobile}{
+		margin: 0;
+	}
 }
